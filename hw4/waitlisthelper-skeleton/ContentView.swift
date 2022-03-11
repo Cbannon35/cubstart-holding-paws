@@ -16,52 +16,57 @@ struct ContentView: View {
     
     var body: some View {
             //YOUR CODE HERE (NavView)//
-            
-            
+        NavigationView {
                 //YOUR CODE HERE (TabView)//
-            NavigationView {
-                TabView {
+            TabView {
                     ZStack {
                         //YOUR CODE HERE (background)//
-                        Image("result_background")
+                        Image("calculate_background")
                             .resizable()
                             .aspectRatio(contentMode: .fill)
                             .edgesIgnoringSafeArea(.top)
+                            
 
                         VStack {
                             Spacer()
                             //YOUR CODE HERE (title)//
                             Text("WILL YOU GET OFF THE WAITLIST")
                                 .font(.largeTitle)
-                                .fontWeight(.bold)
+                                .bold()
                                 .foregroundColor(.black)
                                 .padding()
-                                
 
                             Spacer()
+                            
                             HStack {
                                 //YOUR CODE HERE (description)//
-                                Text("Place on Waitlist: \(waitlistPlace , specifier: "%.f")")
+                                Text(" Place on Waitlist : \( waitlistPlace, specifier: "%.f")")
+                                
                                 Spacer()
                             }
                             //YOUR CODE HERE (slider)//
+                            
                             Slider(value: $waitlistPlace , in: 0...200 , step: 1 )
-                                .padding
+                                .padding()
+                            
+                        
                            
                             HStack {
                                 //YOUR CODE HERE (description)//
-                                Text("Class Size: \(classSize , specifier: "%.f")")
+                                Text(" Class Size : \( classSize, specifier: "%.f")")
+                                
                                 Spacer()
                             }
                             //YOUR CODE HERE (slider)//
+                            
                             Slider(value: $classSize , in: 0...1000 , step: 1 )
-                                .padding
+                                .padding()
                             
                             NavigationLink(destination: ResultView(prob: $probability, feedback: $text), isActive: $calculate) { EmptyView() } .padding()
                             
                             Button("CALCULATE") {
                                 //YOUR CODE HERE (calculate)//
-                                calculateProbability(waitlistPlace: Int, classSize: Int)
+                                calculateProbability(waitlistPlace: Int(waitlistPlace), classSize: Int(classSize))
                                 
                                 text = getFeedbackText()
                                 calculate = true
@@ -78,41 +83,41 @@ struct ContentView: View {
                         Image(systemName: "house.fill")
                         Text("Home")
                     }
-                }
+                    
                     //DIY VIEW GOES HERE//
-                ZStack {
-                    Image("calculate_background")
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
-                        .ignoresSafeArea()
-                    VStack {
-                        HStack {
-                            Text("MY \nCLASSES")
-                                .font(.system(size: 40, weight: .bold))
-                                .foregroundColor(Color.black)
-                                .padding()
-                            Spacer()
-                        } .padding()
-
-                        Spacer()
-                        }
-
-                }
-                    .tabItem {
-                        Image(systemName: "person")
+                    ZStack {
+                        Image("calculate_background")
                             .resizable()
                             .aspectRatio(contentMode: .fill)
-                            .clipShape(Circle())
-                            .frame(width: 35, height:35)
-                            .padding()
-                        Text("Profile")
-                    }
-                
-            }
+                            .ignoresSafeArea()
+                        VStack {
+                            HStack {
+                                Text("MY \nCLASSES")
+                                    .font(.system(size: 40, weight: .bold))
+                                    .foregroundColor(Color.black)
+                                    .padding()
+                                Spacer()
+                            } .padding()
 
+                            Spacer()
+                            }
+
+                    }
+                        .tabItem {
+                            Image(systemName: "person")
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .clipShape(Circle())
+                                .frame(width: 35, height:35)
+                                .padding()
+                            Text("Profile")
+                        }
+                    
+            }
                 
         }
-    
+                
+        }
     func calculateProbability(waitlistPlace: Int, classSize: Int) {
         //YOUR CODE HERE//
         let tenth = classSize / 10
@@ -155,12 +160,12 @@ struct ResultView: View {
                 HStack {
                     //YOUR CODE HERE (button back)//
                     Button(action: {
-                                    self.presentation.wrappedValue.dismiss()
-                                  }) {
-                                  Image(systemName: "arrow.left")
-                                      .foregroundColor(.white)
-                                  }
-                                  .navigationBarHidden(true)
+                                     self.presentation.wrappedValue.dismiss()
+                                   }) {
+                                   Image(systemName: "arrow.left")
+                                       .foregroundColor(.white)
+                                   }
+                                   .navigationBarHidden(true)
                     
                     Spacer()
                 } .padding()
