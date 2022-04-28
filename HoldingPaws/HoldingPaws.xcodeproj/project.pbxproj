@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000635D02815D00900E1662E /* HoldingPawsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000635CF2815D00900E1662E /* HoldingPawsApp.swift */; };
+		000635D22815D00900E1662E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000635D12815D00900E1662E /* ContentView.swift */; };
+		000635D42815D00E00E1662E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000635D32815D00E00E1662E /* Assets.xcassets */; };
+		000635D72815D00E00E1662E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000635D62815D00E00E1662E /* Preview Assets.xcassets */; };
+		000635E12815D00E00E1662E /* HoldingPawsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000635E02815D00E00E1662E /* HoldingPawsTests.swift */; };
+		000635EB2815D00E00E1662E /* HoldingPawsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000635EA2815D00E00E1662E /* HoldingPawsUITests.swift */; };
+		000635ED2815D00E00E1662E /* HoldingPawsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000635EC2815D00E00E1662E /* HoldingPawsUITestsLaunchTests.swift */; };
+		005031A1281622290096F529 /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005031A0281622290096F529 /* LandingPageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		000635DD2815D00E00E1662E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000635C42815D00900E1662E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000635CB2815D00900E1662E;
+			remoteInfo = HoldingPaws;
+		};
+		000635E72815D00E00E1662E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000635C42815D00900E1662E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000635CB2815D00900E1662E;
+			remoteInfo = HoldingPaws;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000635CC2815D00900E1662E /* HoldingPaws.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoldingPaws.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000635CF2815D00900E1662E /* HoldingPawsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingPawsApp.swift; sourceTree = "<group>"; };
+		000635D12815D00900E1662E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		000635D32815D00E00E1662E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		000635D62815D00E00E1662E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		000635DC2815D00E00E1662E /* HoldingPawsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoldingPawsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		000635E02815D00E00E1662E /* HoldingPawsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingPawsTests.swift; sourceTree = "<group>"; };
+		000635E62815D00E00E1662E /* HoldingPawsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoldingPawsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		000635EA2815D00E00E1662E /* HoldingPawsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingPawsUITests.swift; sourceTree = "<group>"; };
+		000635EC2815D00E00E1662E /* HoldingPawsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingPawsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		005031A0281622290096F529 /* LandingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000635C92815D00900E1662E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000635D92815D00E00E1662E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000635E32815D00E00E1662E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000635C32815D00900E1662E = {
+			isa = PBXGroup;
+			children = (
+				000635CE2815D00900E1662E /* HoldingPaws */,
+				000635DF2815D00E00E1662E /* HoldingPawsTests */,
+				000635E92815D00E00E1662E /* HoldingPawsUITests */,
+				000635CD2815D00900E1662E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000635CD2815D00900E1662E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000635CC2815D00900E1662E /* HoldingPaws.app */,
+				000635DC2815D00E00E1662E /* HoldingPawsTests.xctest */,
+				000635E62815D00E00E1662E /* HoldingPawsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000635CE2815D00900E1662E /* HoldingPaws */ = {
+			isa = PBXGroup;
+			children = (
+				000635CF2815D00900E1662E /* HoldingPawsApp.swift */,
+				000635D12815D00900E1662E /* ContentView.swift */,
+				005031A0281622290096F529 /* LandingPageView.swift */,
+				000635D32815D00E00E1662E /* Assets.xcassets */,
+				000635D52815D00E00E1662E /* Preview Content */,
+			);
+			path = HoldingPaws;
+			sourceTree = "<group>";
+		};
+		000635D52815D00E00E1662E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				000635D62815D00E00E1662E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		000635DF2815D00E00E1662E /* HoldingPawsTests */ = {
+			isa = PBXGroup;
+			children = (
+				000635E02815D00E00E1662E /* HoldingPawsTests.swift */,
+			);
+			path = HoldingPawsTests;
+			sourceTree = "<group>";
+		};
+		000635E92815D00E00E1662E /* HoldingPawsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				000635EA2815D00E00E1662E /* HoldingPawsUITests.swift */,
+				000635EC2815D00E00E1662E /* HoldingPawsUITestsLaunchTests.swift */,
+			);
+			path = HoldingPawsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000635CB2815D00900E1662E /* HoldingPaws */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000635F02815D00E00E1662E /* Build configuration list for PBXNativeTarget "HoldingPaws" */;
+			buildPhases = (
+				000635C82815D00900E1662E /* Sources */,
+				000635C92815D00900E1662E /* Frameworks */,
+				000635CA2815D00900E1662E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoldingPaws;
+			productName = HoldingPaws;
+			productReference = 000635CC2815D00900E1662E /* HoldingPaws.app */;
+			productType = "com.apple.product-type.application";
+		};
+		000635DB2815D00E00E1662E /* HoldingPawsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000635F32815D00E00E1662E /* Build configuration list for PBXNativeTarget "HoldingPawsTests" */;
+			buildPhases = (
+				000635D82815D00E00E1662E /* Sources */,
+				000635D92815D00E00E1662E /* Frameworks */,
+				000635DA2815D00E00E1662E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000635DE2815D00E00E1662E /* PBXTargetDependency */,
+			);
+			name = HoldingPawsTests;
+			productName = HoldingPawsTests;
+			productReference = 000635DC2815D00E00E1662E /* HoldingPawsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		000635E52815D00E00E1662E /* HoldingPawsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000635F62815D00E00E1662E /* Build configuration list for PBXNativeTarget "HoldingPawsUITests" */;
+			buildPhases = (
+				000635E22815D00E00E1662E /* Sources */,
+				000635E32815D00E00E1662E /* Frameworks */,
+				000635E42815D00E00E1662E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000635E82815D00E00E1662E /* PBXTargetDependency */,
+			);
+			name = HoldingPawsUITests;
+			productName = HoldingPawsUITests;
+			productReference = 000635E62815D00E00E1662E /* HoldingPawsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000635C42815D00900E1662E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					000635CB2815D00900E1662E = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					000635DB2815D00E00E1662E = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 000635CB2815D00900E1662E;
+					};
+					000635E52815D00E00E1662E = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 000635CB2815D00900E1662E;
+					};
+				};
+			};
+			buildConfigurationList = 000635C72815D00900E1662E /* Build configuration list for PBXProject "HoldingPaws" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000635C32815D00900E1662E;
+			productRefGroup = 000635CD2815D00900E1662E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000635CB2815D00900E1662E /* HoldingPaws */,
+				000635DB2815D00E00E1662E /* HoldingPawsTests */,
+				000635E52815D00E00E1662E /* HoldingPawsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000635CA2815D00900E1662E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000635D72815D00E00E1662E /* Preview Assets.xcassets in Resources */,
+				000635D42815D00E00E1662E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000635DA2815D00E00E1662E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000635E42815D00E00E1662E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000635C82815D00900E1662E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000635D22815D00900E1662E /* ContentView.swift in Sources */,
+				005031A1281622290096F529 /* LandingPageView.swift in Sources */,
+				000635D02815D00900E1662E /* HoldingPawsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000635D82815D00E00E1662E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000635E12815D00E00E1662E /* HoldingPawsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000635E22815D00E00E1662E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000635EB2815D00E00E1662E /* HoldingPawsUITests.swift in Sources */,
+				000635ED2815D00E00E1662E /* HoldingPawsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		000635DE2815D00E00E1662E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000635CB2815D00900E1662E /* HoldingPaws */;
+			targetProxy = 000635DD2815D00E00E1662E /* PBXContainerItemProxy */;
+		};
+		000635E82815D00E00E1662E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000635CB2815D00900E1662E /* HoldingPaws */;
+			targetProxy = 000635E72815D00E00E1662E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		000635EE2815D00E00E1662E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		000635EF2815D00E00E1662E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		000635F12815D00E00E1662E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HoldingPaws/Preview Content\"";
+				DEVELOPMENT_TEAM = VV749UCCN4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yanyi-Chen.HoldingPaws";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000635F22815D00E00E1662E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HoldingPaws/Preview Content\"";
+				DEVELOPMENT_TEAM = VV749UCCN4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yanyi-Chen.HoldingPaws";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		000635F42815D00E00E1662E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VV749UCCN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yanyi-Chen.HoldingPawsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoldingPaws.app/HoldingPaws";
+			};
+			name = Debug;
+		};
+		000635F52815D00E00E1662E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VV749UCCN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yanyi-Chen.HoldingPawsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoldingPaws.app/HoldingPaws";
+			};
+			name = Release;
+		};
+		000635F72815D00E00E1662E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VV749UCCN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yanyi-Chen.HoldingPawsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HoldingPaws;
+			};
+			name = Debug;
+		};
+		000635F82815D00E00E1662E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VV749UCCN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yanyi-Chen.HoldingPawsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HoldingPaws;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000635C72815D00900E1662E /* Build configuration list for PBXProject "HoldingPaws" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000635EE2815D00E00E1662E /* Debug */,
+				000635EF2815D00E00E1662E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000635F02815D00E00E1662E /* Build configuration list for PBXNativeTarget "HoldingPaws" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000635F12815D00E00E1662E /* Debug */,
+				000635F22815D00E00E1662E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000635F32815D00E00E1662E /* Build configuration list for PBXNativeTarget "HoldingPawsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000635F42815D00E00E1662E /* Debug */,
+				000635F52815D00E00E1662E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000635F62815D00E00E1662E /* Build configuration list for PBXNativeTarget "HoldingPawsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000635F72815D00E00E1662E /* Debug */,
+				000635F82815D00E00E1662E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000635C42815D00900E1662E /* Project object */;
+}
